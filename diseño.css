@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 25px;
+    background-color: #2eacbd;
+}
+
+body, html{ /*para poder trabajar con porcentajes*/
+    height: 100%;
+    width: 100%;
+}
+
+.caculadora{
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+    width: 30%;
+    height: 90%;
+    background-color:rgb(56, 55, 55);
+    box-shadow: 2px 1px 29px 6px;
+}
+
+.titulo{
+    color: white;
+}
