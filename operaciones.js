@@ -31,3 +31,39 @@ function masMenos(){
     var nuevoIngreso = actual * -1;
     document.getElementById("calculo").value = nuevoIngreso;
 }
+
+function sin(dato_1){
+    r = Math.sin(dato_1);
+    return r ;
+}
+
+function cos(dato_1){ 
+    r = Math.cos(dato_1);
+    return r;
+}
+
+function tan(dato_1){
+    r = Math.tan(dato_1);
+    return r;
+}
+
+function raiz(dato_1){
+    r = Math.sqrt(dato_1);
+    return r;
+}
+
+function pow(dato_1, dato_2){
+    r = Math.pow(dato_1, dato_2);
+    return r;
+}
+
+function prc(dato_1, dato_2){
+    r = ((dato_1/100)*dato_2);
+    return r;
+}
+
+function log(dato_1){
+    r = Math.log10(dato_1);
+    return r;
+}
+
