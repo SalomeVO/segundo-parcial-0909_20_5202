@@ -58,3 +58,57 @@ body, html{ /*para poder trabajar con porcentajes*/
     text-align: center;
     margin: 10px;
 }
+
+.del{
+    padding: 5px;
+    color: rgb(255, 246, 250);
+    background-color:rgb(248, 60, 154);
+    border: 2px solid rgb(255, 98, 182);
+    border-radius: 5px;
+    width: 90px;
+    height: 50px;
+    margin: 3px;
+}
+
+.ac{
+    padding: 5px;
+    color: rgb(255, 246, 250);
+    background: transparent;
+    border: 2px solid rgb(255, 98, 182);
+    border-radius: 5px;
+    width: 90px;
+    height: 50px;
+    margin: 3px;
+}
+
+.igual{
+    padding: 5px;
+    color: rgb(255, 246, 250);
+    background: transparent;
+    border: 2px solid rgb(255, 98, 182);
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    margin: 3px;
+}
+
+.btn-fila{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.parteCientifica{
+    width: 95%;
+    height: 25%;
+}
+
+.areaNumeros{
+    display: flex;
+}
+
+.parteBasica{
+    text-align: center;
+}
