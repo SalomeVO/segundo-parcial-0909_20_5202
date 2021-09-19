@@ -1,7 +1,7 @@
 var input_content = document.getElementById("calculo").value;
 
-function todoEliminado (tecla) {    
-    switch(tecla) {
+function todoEliminado (opcion ) {    
+    switch(opcion) {
     
                     case 'C':
                         document.getElementById("calculo").value = ' ';
@@ -13,7 +13,7 @@ function todoEliminado (tecla) {
                     break;
     
                     default:
-                        document.getElementById("calculo").value = document.getElementById("calculo").value + tecla;
+                        document.getElementById("calculo").value = document.getElementById("calculo").value + opcion ;
                     break;
     }
 }
