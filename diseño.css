@@ -26,3 +26,35 @@ body, html{ /*para poder trabajar con porcentajes*/
 .titulo{
     color: white;
 }
+
+.visualizacion{
+    background: rgb(62, 68, 68, 0);
+    color: rgb(255, 255, 255);
+    padding: .7em;
+    width: 95%;
+    height: 40px;
+    font-size: 1.2em;
+    text-align: left;
+    border: none;
+    outline: 0;
+    border-bottom: 2px solid rgb(105, 91, 99);
+}
+
+.areaDeResultadosn{
+    width: 100%
+}
+
+.numeros{
+    padding: 5px;
+    color: rgb(255, 246, 250);
+    margin: 6px;
+    background: transparent;
+    border: 2px solid rgb(255, 98, 182);
+    border-radius: 70px;
+    width: 40px;
+    height: 40px;
+}
+.grupoNumero{
+    text-align: center;
+    margin: 10px;
+}
