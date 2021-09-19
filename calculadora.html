@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diseño.css"> <!--Se agrega el documento de css-->
+    <script src="operaciones.js"></script> <!--Se agrega el documento de css-->
+    <title>Calculadora Malota</title>
+</head>
+
+<body>
+    <form class="caculadora">
+        <div class="areaDeResultados">
+            <input type="text" class="visualizacion" name="numeros" id="calculo">
+        </div>
+        
+        <br>
+
+        <h3 class="titulo">Cientifica</h3>
+        <div class="parteCientifica">
+            <div class="btn-group">
+                <input type="button" value="(" class="numeros" onclick="numeros.value += '('">
+                <input type="button" value=")" class="numeros" onclick="numeros.value += ')'">
+                <input type="button" value="sin" class="numeros" onclick="numeros.value += 'sin('">
+                <input type="button" value="cos" class="numeros" onclick="numeros.value += 'cos('">
+                <input type="button" value="tan" class="numeros" onclick="numeros.value += 'tan('">
+                <input type="button" value="√" class="numeros" onclick="numeros.value += 'raiz('">
+            </div>
+            <div class="btn-group">
+                <input type="button" value="^" class="numeros" onclick="numeros.value += 'pow('">
+                <input type="button" value=" " class="numeros">
+                <input type="button" value="%" class="numeros" onclick="numeros.value += 'prc('">
+                <input type="button" value=" " class="numeros">
+                <input type="button" value="log" class="numeros" onclick="numeros.value += 'log('">
+                <input type="button" value="," class="numeros" onclick="numeros.value += ','">
+            </div>
+            
+        </div>
+        <br>
+
+        <h3 class="titulo">Básica</h3>
+        <div class="areaNumeros">
+            <div class="grupoNumero">
+                <div class="btn-group">
+                    <input type="button" value="7" class="numeros" onclick="numeros.value += '7'">
+                    <input type="button" value="8" class="numeros" onclick="numeros.value += '8'">
+                    <input type="button" value="9" class="numeros" onclick="numeros.value += '9'">
+                </div>
+                <div class="btn-group">
+                    <input type="button" value="4" class="numeros" onclick="numeros.value += '4'">
+                    <input type="button" value="5" class="numeros" onclick="numeros.value += '5'">
+                    <input type="button" value="6" class="numeros" onclick="numeros.value += '6'">
+                </div>
+                <div class="btn-group">
+                    <input type="button" value="1" class="numeros" onclick="numeros.value += '1'">
+                    <input type="button" value="2" class="numeros" onclick="numeros.value += '2'">
+                    <input type="button" value="3" class="numeros" onclick="numeros.value += '3'">
+                </div>
+                <input type="button" value="0" class="numeros" onclick="numeros.value += '0'">
+                <input type="button" value="." class="numeros" onclick="numeros.value += '.'">
+            </div>
+    
+            <div class="parteBasica">
+                <div class="btn-group">
+                    <input type="button" value="DEL" class="del" onclick="todoEliminado('C')">
+                    <input type="button" value="AC" class="ac" onclick="unEliminado()">
+
+                </div>
+                <div class="btn-group">
+                    <input type="button" value="±" class="numeros" onclick="masMenos('')">
+                    <input type="button" value="+" class="numeros" onclick="numeros.value += '+'">
+                    <input type="button" value="-" class="numeros" onclick="numeros.value += '-'">              
+                </div>
+                <div class="btn-group">
+                    <input type="button" value="*" class="numeros" onclick="numeros.value += '*'">
+                    <input type="button" value="/" class="numeros" onclick="numeros.value += '/'">
+                    <input type="button" value="π" class="numeros" onclick="numeros.value += '3.141592'">
+                </div>
+                <input type="button" value="=" class="igual" onclick="todoEliminado('=')">
+            </div>
+        </div>
+    </form>
