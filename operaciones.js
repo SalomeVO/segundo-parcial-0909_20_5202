@@ -1,6 +1,5 @@
 var input_content = document.getElementById("calculo").value;
 
-//Declaring functions to both sections (scientific calculator and basic calculos)
 function todoEliminado (tecla) {    
     switch(tecla) {
     
